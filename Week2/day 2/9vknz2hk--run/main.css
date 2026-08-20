@@ -1,0 +1,52 @@
+/* ==================================================================
+   Badge & Sticky Header — starter styles.
+
+   Right now NOTHING is positioned: the header scrolls away and the
+   "NEW" badge just sits inline at the top of the card. There is also a
+   leftover !important hack on the header you must remove.
+
+   YOUR JOB (all in this file):
+   1. Make .card a positioning context      -> position: relative
+   2. Take .badge out of flow               -> position: absolute
+   3. Tuck the badge into the top-right      -> top + right offsets
+   4. Keep the badge above the card content  -> a positive z-index
+   5. Pin the header to the screen           -> position: fixed; top: 0
+   6. Keep the header above everything        -> a positive z-index
+   7. Remove the !important — solve it honestly.
+   ================================================================== */
+
+   body { font-family: system-ui, -apple-system, sans-serif; margin: 0; background: #f7f9ff; }
+
+   .site-header {
+     background: #1F4E78;
+     color: #fff;
+     padding: 12px 16px !important;   /* TODO: make the header fixed and REMOVE this !important */
+     font-weight: 700;
+   }
+   
+   .page { padding: 16px; }
+   
+   .card {
+     background: #fff;
+     border: 1px solid #e2e6f2;
+     border-radius: 12px;
+     padding: 16px;
+     position: relative;
+      ;
+     /* TODO: position: relative; */
+   }
+   
+   .badge {
+     background: #d6336c;
+     color: #fff;
+     font-weight: 800;
+     font-size: 12px;
+     padding: 4px 8px;
+     border-radius: 999px;
+     position: absolute;
+     top: 0;
+     right: 0;
+
+     /* TODO: position it in the card's top-right corner */
+   }
+   

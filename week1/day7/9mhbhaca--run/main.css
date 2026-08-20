@@ -1,0 +1,25 @@
+
+
+
+
+/* TODO 1 (tests 1, 2, 3): Define your palette as CSS custom properties.
+   Create a :root rule with at LEAST 3 colour custom properties, e.g.
+   --brand, --accent, and --ink. Use hex, rgb(), or hsl() colour values. */
+
+
+/* TODO 2 (tests 4, 5, 6): Style the <body>.
+   - Give it a font-family STACK (a preferred font + at least one
+     fallback, ending in a generic family like sans-serif).
+   - Set its font-size in REM (e.g. 1rem).
+   - Set its text color using one of your palette variables: var(--...). */
+
+
+/* TODO 3 (tests 7, 9): Style the headings.
+   - Give h1 a font-size in REM.
+   - Give a heading its color using var(--brand) (or another palette var). */
+
+
+/* TODO 4 (tests 8, 10): Use the palette again.
+   - Style the .cta button: set its background using a palette variable
+     var(--...). Across the whole file, var(--...) must be used at least
+     twice, and a background must reference the palette. */

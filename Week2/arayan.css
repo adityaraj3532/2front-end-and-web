@@ -1,0 +1,72 @@
+
+
+.divA{
+height: 250px;
+width: 250px;
+border: 1px solid black;
+}
+.divB{
+height: 200px;
+width: 200px;
+border: 1px solid black;
+}
+.divC{
+height: 150px;
+width: 150px;
+border: 1px solid black;
+}
+.divD{
+height: 100px;
+width: 100px;
+border: 1px solid black;
+
+}
+.divE{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+}
+.divF{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+}
+
+
+
+/* Descedant Selector 
+symbol : space 
+*/
+
+/* .container div{
+    background-color: yellow;
+    border-radius: 20px;
+}
+
+/* child 
+symbol : >
+
+.container > div{
+    background-color: blue;
+    border-radius: 20px;
+} */
+
+/* 
+Adjacent sibling
+symbol : +
+*/
+/* 
+.container + div{
+    border-radius: 20px;
+} */
+
+
+/*
+Genral sibling
+symbol : ~
+
+*/
+
+.container:nth-child(2){
+    border-radius: 20px;
+}

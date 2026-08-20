@@ -23,31 +23,27 @@
 </head>
 
 <body>
-  <!-- ================================================================
-       ONLY EDIT THIS <body>. Leave the doctype and <head> untouched.
-       Build an accessible sign-up <form> so every test goes green.
-       Delete each TODO as you finish it.
-       ================================================================ -->
+     <form>
+
 
   <h1>Create your account</h1>
+  
+  <label for="passwor">pass</label>
+  <input id="passwor" type="text"  >
 
-  <!-- TODO 1 (test 1): wrap everything below in a single <form> element. -->
+  <label for="email" >email</label>
+  <input  id="email" type="email" required>
 
-    <!-- TODO 2 (tests 2, 10): a Full name field.
-         An <input type="text"> with an id, and a <label for="..."> that matches it. -->
+  <label for="passw">pass</label>
+  <input id="passw" type="password"  minlength="8" required >
 
-    <!-- TODO 3 (tests 3, 4, 10): an Email field.
-         An <input type="email" required> with an id, and a matching <label>. -->
+  <input id="term" name="term" type="checkbox" required>
+  <label for="term">term and condition apply</label>
+  
 
-    <!-- TODO 4 (tests 5, 6, 7, 10): a Password field.
-         An <input type="password" required minlength="8"> with an id, and a matching <label>. -->
+  <input type="submit">
 
-    <!-- TODO 5 (tests 8, 10): a Terms checkbox.
-         An <input type="checkbox"> associated with a <label>
-         (either give it an id + <label for="...">, or wrap the input inside the <label>). -->
-
-    <!-- TODO 6 (test 9): a submit button.
-         <button type="submit">Sign up</button> -->
+     </form>
 
 </body>
 
