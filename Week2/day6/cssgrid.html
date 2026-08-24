@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid{
+            display: grid;
+            gap: 20px;
+            grid-template-columns:250px 1fr 
+        }
+     .grid div{
+        border:1px solid rgb(203, 32, 32);
+   
+     }
+        .header{
+            background-color: black;
+            grid-column: 1/4;
+            height: 80px;
+        }
+        .sidebar{
+            
+            background-color: blue;
+            height: 70vh;
+        }
+        .footer{
+            grid-column: 1/4;
+            background-color: pink;
+            height: 60px;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="header"></div>
+        <div class="sidebar"></div>
+        <div class="main-content"></div>
+        <div class="footer"></div>
+ 
+    </div>
+</body>
+</html>
