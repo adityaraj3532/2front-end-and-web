@@ -1,0 +1,62 @@
+<!-- /* Mobile */
+@media (max-width: 576px) {
+    body {
+        background: lightblue;
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+    body {
+        background: lightgreen;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1200px) {
+    body {
+        background: lightyellow;
+    }
+} -->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: flex;
+        gap: 20px;
+      }
+
+      .container div {
+        height: 200px;
+        width: 200px;
+        background-color: black;
+      }
+      @media (max-width: 576px) {
+        body {
+          background: yellow;
+        }
+        .container {
+          flex-direction: column;
+        }
+      }
+      @media (min-width: 768px) and (max-width: 991px) {
+        body {
+          background-color: pink;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </body>
+</html>

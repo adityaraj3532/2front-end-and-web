@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h1 {
+        font-family: sans-serif;
+        color: blue;
+        text-align: center;
+      
+      }
+      button{
+        background-color: red;
+        border: none;
+        border-radius: 100%;
+        height: 80px;
+        width:80px;
+        cursor: pointer;
+      }
+      button:hover{
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>0</h1>
+    <button id="button">Increment</button>
+    <script>
+      let count=0;
+      document.querySelector("#button").addEventListener("click",()=>{
+        let h1=document.querySelector("h1");
+        h1.innerHTML=count++;
+        console.log("2"+"3")
+        console.log(count)
+      })
+    </script>
+    <script src="index.js"></script>
+  </body>
+</html>
