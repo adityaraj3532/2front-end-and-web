@@ -1,50 +1,21 @@
-<!DOCTYPE html>
-<html>
+/* TODO 1 (tests 1, 2, 3): Define your palette as CSS custom properties.
+   Create a :root rule with at LEAST 3 colour custom properties, e.g.
+   --brand, --accent, and --ink. Use hex, rgb(), or hsl() colour values. */
 
-<head>
-  <meta charset="utf-8">
-  <title>Jasmine Spec Runner v2.8.0</title>
 
-  <!-- <link rel="shortcut icon" type="image/png" href="jasmine/jasmine-2.8.0/face.png"> -->
-  <link rel="stylesheet" href="jasmine/jasmine-2.8.0/jasmine.css">
+/* TODO 2 (tests 4, 5, 6): Style the <body>.
+   - Give it a font-family STACK (a preferred font + at least one
+     fallback, ending in a generic family like sans-serif).
+   - Set its font-size in REM (e.g. 1rem).
+   - Set its text color using one of your palette variables: var(--...). */
 
-  <!-- Your stylesheet. All of your work happens in main.css. -->
-  <link rel="stylesheet" href="main.css">
 
-  <!-- OPTIONAL: to use a real web font, add its Google Fonts <link> here,
-       e.g. <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-       then name it in main.css. This is the ONLY change allowed in <head>. -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+/* TODO 3 (tests 7, 9): Style the headings.
+   - Give h1 a font-size in REM.
+   - Give a heading its color using var(--brand) (or another palette var). */
 
-  <script src="jasmine/jasmine-2.8.0/jasmine.js"></script>
-  <script src="jasmine/jasmine-2.8.0/jasmine-html.js"></script>
-  <script src="jasmine/jasmine-2.8.0/boot.js"></script>
 
-  <!-- include source files here... -->
-  <script src="src/app.js"></script>
-
-  <!-- include spec files here... -->
-  <script src="tests/FunctionsTest.js"></script>
-
-</head>
-
-<body>
-  <!-- ================================================================
-       DO NOT EDIT THIS MARKUP. This is the page you must RESTYLE.
-       All of your work happens in main.css (and, optionally, one font
-       <link> in the <head> above). Make every test go green by giving
-       this page a colour palette, a web font, and rem-based type.
-       ================================================================ -->
-
-  <main class="site">
-    <h1>Chai &amp; Code</h1>
-    <p class="lead">A weekend meetup for people who like talks, chai, and pair-programming.</p>
-    <h2>What to expect</h2>
-    <p>Short talks, open laptops, and good company. Same HTML you see everywhere &mdash; the difference is the style.</p>
-    <button class="cta">RSVP now</button>
-  </main>
-
-</body>
-
-</html>
+/* TODO 4 (tests 8, 10): Use the palette again.
+   - Style the .cta button: set its background using a palette variable
+     var(--...). Across the whole file, var(--...) must be used at least
+     twice, and a background must reference the palette. */
